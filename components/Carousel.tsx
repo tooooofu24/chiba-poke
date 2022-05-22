@@ -46,7 +46,7 @@ export const CarouselComponent: FC = () => {
               <Image src='/svg/cheer.svg' alt='cheer' />
             </div>
           </div>
-        </div>{' '}
+        </div>
       </Carousel.Item>
       <Carousel.Item>
         <div className='ratio ratio-16x9 bg-secondary text-white'>
@@ -65,7 +65,7 @@ export const CarouselComponent: FC = () => {
               <Image src='/svg/cheer.svg' alt='cheer' />
             </div>
           </div>
-        </div>{' '}
+        </div>
       </Carousel.Item>
     </Carousel>
   )

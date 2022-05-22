@@ -7,7 +7,6 @@ const StyledA = styled.a`
   text-decoration: none;
   color: #000;
   font-weight: 500;
-  font-size: 20px;
   margin-left: 1rem;
 `
 
@@ -15,7 +14,7 @@ export const NavigationBar: FC = () => {
   return (
     <header className='fixed-top'>
       <nav className='p-3 d-flex justify-content-between align-items-center'>
-        <div></div>
+        <div>ちばポケ公式HP</div>
         <div>
           <Link href='/'>
             <StyledA>トップ </StyledA>
