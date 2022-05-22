@@ -7,7 +7,7 @@ const StyledA = styled.a`
   text-decoration: none;
   color: #000;
   font-weight: 500;
-  font-size: 16px;
+  font-size: 20px;
   margin-left: 1rem;
 `
 
