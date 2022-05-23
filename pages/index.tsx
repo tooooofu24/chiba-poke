@@ -6,8 +6,8 @@ import { CarouselComponent } from '../components/Carousel'
 import { GroupTile } from '../components/GroupTile'
 import { MainTile } from '../components/MainTile'
 import { NavigationBar } from '../components/NavigationBar'
+import { QandA } from '../components/QandA'
 import { Twitter } from '../components/Twitter'
-
 const MainTileWrapper = styled.div`
   margin-top: 1rem;
 `
@@ -99,6 +99,10 @@ const Home: NextPage = () => {
             ></GroupTile>
           </GroupTileWrapper>
         </section>
+        <section style={{ marginTop: '100px' }} className='w-100'>
+          <QandA />
+        </section>
+        <section style={{ marginTop: '100px' }}></section>
       </main>
     </>
   )
