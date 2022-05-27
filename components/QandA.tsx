@@ -20,7 +20,7 @@ export const QandA = () => {
       <div className='text-center mb-5'>
         <h3>よくある質問</h3>
       </div>
-      <Accordion className='px-4'>
+      <Accordion>
         <Accordion.Item eventKey='0'>
           <Accordion.Header>
             <Header content='活動場所は？' />
